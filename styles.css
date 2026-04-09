@@ -6,7 +6,7 @@
 
 :root {
   --primary: #ff6b00;
-  --primary-dark: #cc5500;
+  --primary-dark: #cc3a00;
   --secondary: #1a1a2e;
   --accent: #e94560;
   --text-light: #f0f0f0;
@@ -70,7 +70,7 @@ nav {
 
 /* ── HERO ── */
 .hero {
-  background: linear-gradient(135deg, #0d0d1a 0%, #1a1a2e 40%, #2a0a00 100%);
+ /* background: linear-gradient(135deg, #0d0d1a 0%, #1a1a2e 40%, #2a0a00 100%);*/
   text-align: center;
   padding: 100px 24px 80px;
   position: relative;
@@ -81,7 +81,7 @@ nav {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 60%, rgba(255, 107, 0, 0.15) 0%, transparent 70%);
+  /* background: radial-gradient(ellipse at 50% 60%, rgba(255, 107, 0, 0.15) 0%, transparent 70%); */
 }
 
 .hero-content {
@@ -161,7 +161,8 @@ nav {
 }
 
 .btn-primary {
-  background: var(--primary);
+ /* background: var(--primary); */
+   background: var(--primary-dark);
   color: #fff;
 }
 
