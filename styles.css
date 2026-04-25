@@ -297,7 +297,7 @@ nav {
 }
 
 .timetable .headliner .time {
-  color: #fff;
+    color: var(--primary);
 }
 
 .badge {
